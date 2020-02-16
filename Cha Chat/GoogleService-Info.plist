@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>29828565970-jq7oeasneve2oustvd4mi9qafg8cf8bp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.29828565970-jq7oeasneve2oustvd4mi9qafg8cf8bp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvlspv-He9dJuSDfQGq18Lv-zuO136xmc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>29828565970</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.co.tpsinc.iosstudy.3rd.Cha-Chat</string>
+	<key>PROJECT_ID</key>
+	<string>cha-chat-2b21d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cha-chat-2b21d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:29828565970:ios:f89aa0b9087bd0886fd60b</string>
+	<key>DATABASE_URL</key>
+	<string>https://cha-chat-2b21d.firebaseio.com</string>
+</dict>
+</plist>
