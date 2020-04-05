@@ -11,11 +11,15 @@ You must install pod file
 
 #### Firebase
 <code>
-  pod 'Firebase/Core',
-  pod 'Firebase/Database',
-  pod 'Firebase/Auth' , 
-  pod 'Firebase/Storage' ,
+  
+  pod 'Firebase/Database'
+  
+  pod 'Firebase/Auth'
+  
+  pod 'Firebase/Storage'
+  
   pod 'FirebaseUI'
+  
 </code>
 
 #### Kingfisher
