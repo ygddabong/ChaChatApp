@@ -22,6 +22,7 @@ class FriendListViewController: UIViewController {
     var FriendList: [Friend] = []
     var friendUID = ""
     var senderName = ""
+    var reciverName = ""
     
     
     
@@ -96,10 +97,9 @@ class FriendListViewController: UIViewController {
             guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChatView") as? ChatViewController else { return }
             vc.chatRoomUID = chatRoomUID
             vc.createChatRoomFlag = createChatRoomFlag
-            vc.title = "친구이름"
-        vc.senderName = self.senderName
+            vc.title = self.reciverName
+            vc.senderName = self.senderName
             self.navigationController?.pushViewController(vc, animated: true)
-            //self.present(vc, animated: true, completion: nil)
     }
     
 }
@@ -132,14 +132,14 @@ extension FriendListViewController: UITableViewDelegate, UITableViewDataSource {
         label.snp.makeConstraints{ (make) in
             make.centerY.equalTo(cell)
             make.left.equalTo(imageView.snp.right).offset(20)
-        }
-        imageView.layer.borderWidth = 1
+        } 
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         self.friendUID = FriendList[indexPath.row].userUid
+        self.reciverName = FriendList[indexPath.row].name
         moveChat()
         
     }
