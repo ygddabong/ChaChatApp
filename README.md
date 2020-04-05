@@ -11,10 +11,10 @@ You must install pod file
 
 #### Firebase
 <code>
-  pod 'Firebase/Core' </br>
-  pod 'Firebase/Database' </br>
-  pod 'Firebase/Auth' </br>
-  pod 'Firebase/Storage' </br>
+  pod 'Firebase/Core',
+  pod 'Firebase/Database',
+  pod 'Firebase/Auth' , 
+  pod 'Firebase/Storage' ,
   pod 'FirebaseUI'
 </code>
 
