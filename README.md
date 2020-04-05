@@ -1,5 +1,6 @@
 # ChaChatApp
 What's app clone app
+Simple chat app 
 
 ## Getting Started
 You must install pod file
