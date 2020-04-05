@@ -1,6 +1,35 @@
 # ChaChatApp
 What's app clone app
 
+## Getting Started
+You must install pod file
+
+#### Snap Kit
+<code>
+  pod 'SnapKit'
+</code>
+
+#### Firebase
+<code>
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'FirebaseUI'
+</code>
+
+#### Kingfisher
+<code>
+  pod 'Kingfisher'
+</code>
+
+#### MessageKit
+<code>
+  pod 'MessageKit'
+</code>
+
+
+
 
 # Screen Shot
 
