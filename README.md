@@ -14,12 +14,15 @@ You must install pod file
 <code>
   pod 'Firebase/Database'
 </code>
+<br>
 <code>
   pod 'Firebase/Auth'
 </code>
+<br>
 <code>
   pod 'Firebase/Storage'
-</code>  
+</code>
+<br>
 <code>  
   pod 'FirebaseUI'
 </code>
