@@ -1,0 +1,11 @@
+# CocoaPods — run `pod install` to recreate
+Pods/
+
+# Firebase config contains project keys — download your own from the Firebase console
+GoogleService-Info.plist
+
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+.DS_Store
